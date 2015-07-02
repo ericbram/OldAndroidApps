@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello, Android! I am a string resource!</string>
+    <string name="app_name">Poop Raps</string>
+    <string name="author">Author:  </string>
+    <string name="date">Date:  </string>
+    <string name="blank"></string>
+</resources>

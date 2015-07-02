@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:orientation="vertical">
+    <TableLayout android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="center_horizontal">
+        <TableRow android:id="@+id/tableRow1" android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="center_horizontal">
+            <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="bottom" android:id="@+id/tvTopLabel" android:text="Welcome to Pickleball"></TextView>
+        </TableRow>
+        <TableRow android:layout_height="wrap_content" android:id="@+id/tableRow2" android:layout_width="match_parent">
+            <Button android:layout_height="wrap_content" android:text="Singles" android:id="@+id/btnSinglePlayer" android:layout_width="match_parent" android:onClick="singlesEntry"></Button>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_height="match_parent" android:layout_width="match_parent" android:layout_gravity="center">
+            <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Doubles" android:id="@+id/btnDoubles" android:onClick="doublesEntry"></Button>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
